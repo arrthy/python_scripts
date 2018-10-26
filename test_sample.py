@@ -1,2 +1,1 @@
-def test_prompt()
-	print "Hello!!"
+	print "Hello World!!"
