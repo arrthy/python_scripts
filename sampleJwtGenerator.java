@@ -45,7 +45,7 @@ public class sampleJwtGenerator {
 		String userName = "admin";
 		ZFJCloudRestClient client = ZFJCloudRestClient.restBuilder(zephyrBaseUrl, accessKey, secretKey, userName).build();
 		JwtGenerator jwtGenerator = client.getJwtGenerator();
-		System.out.println(args[0])
+		System.out.println(args[0]);
 		// API to which the JWT token has to be generated
 		String createCycleUri = zephyrBaseUrl + args[0];
 		
